@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SK.RazorWire", "SK.RazorWire\SK.RazorWire.csproj", "{D3453774-0D6B-4DFE-A964-23ED11E5D91A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SK.TextGenerator", "SK.TextGenerator\SK.TextGenerator.csproj", "{5640CB97-83B0-442F-A347-E342A0985164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3453774-0D6B-4DFE-A964-23ED11E5D91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3453774-0D6B-4DFE-A964-23ED11E5D91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3453774-0D6B-4DFE-A964-23ED11E5D91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3453774-0D6B-4DFE-A964-23ED11E5D91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5640CB97-83B0-442F-A347-E342A0985164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5640CB97-83B0-442F-A347-E342A0985164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5640CB97-83B0-442F-A347-E342A0985164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5640CB97-83B0-442F-A347-E342A0985164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F3A4CB4-7720-4CCC-9273-CDABDB8DE7BF}
+	EndGlobalSection
+EndGlobal
