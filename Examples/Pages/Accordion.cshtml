@@ -1,0 +1,43 @@
+﻿@page
+@model Examples.Pages.AccordionModel
+@{
+    ViewData["Title"] = "Accordion";
+}
+
+<accordions>
+    <accordioncontent title="content #1" active="true">
+        This is accordion content #1
+    </accordioncontent>
+    <accordioncontent title="content #2">
+        This is accordion content #2
+    </accordioncontent>
+</accordions>
+
+<h2>Usage</h2>
+<pre>
+&#60;accordions&#62;
+&#60;accordioncontent title="content #1" active="true"&#62;
+This is accordion content #1
+&#60;accordioncontent&#62;
+
+&#60;accordioncontent title="content #2"&#62;
+This is accordion content #2
+&#60;accordioncontent&#62;
+&#60;/accordions&#62;
+</pre>
+
+<h2>accordioncontent Properties</h2>
+<table class="table">
+    <tr>
+        <td>active</td>
+        <td>true, false</td>
+    </tr>
+    <tr>
+        <td>title</td>
+        <td>Any text</td>
+    </tr>
+    <tr>
+        <td>heading-tag</td>
+        <td>H1, H2, H3, H4, H5 (default)</td>
+    </tr>
+</table>
