@@ -2,7 +2,39 @@
 @model Examples.Pages.AutoTableModel
 @{
     ViewData["Title"] = "AutoTable";
+
+    var table = new AutoTable(
+        new AutoColumn("Name", AutoColumnType.Name),
+        new AutoColumn("Email", AutoColumnType.Email)
+        );
+
+    table.RowCount = 3;
+
+    var table2 = new AutoTable(
+        new AutoColumn("Name", AutoColumnType.Name, "/", "Hello")
+        );
+
+    table2.RowCount = 3;
 }
+
+<tabs>
+    <tabcontent title="1" active="true">
+        <autotable content="table"></autotable>
+        <h2>Usage</h2>
+<pre>
+&#60;autotable content="table"&#62;&#60;/autotable&#62;
+
+var table = new AutoTable(
+        new AutoColumn("Name", AutoColumnType.Name),
+        new AutoColumn("Email", AutoColumnType.Email)
+        );
+</pre>
+    </tabcontent>
+    <tabcontent title="2">
+        <autotable content="table2"></autotable>
+    </tabcontent>
+</tabs>
+
 
 
 <h2>AutoTable properties</h2>
