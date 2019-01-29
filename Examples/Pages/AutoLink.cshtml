@@ -1,0 +1,35 @@
+﻿@page
+@model Examples.Pages.AutoLinkModel
+@{
+    ViewData["Title"] = "AutoLink";
+}
+
+<autolink url="/" label="Home" type="Link"/>
+<br/>
+<autolink url="/" label="Home" type="Button" button-style="Danger"></autolink>
+
+<h2>Usage</h2>
+<pre>
+&#60;autolink url="/" label="Home" type="Link"/&#62;
+
+&#60;autolink url="/" label="Home" type="Button" button-style="Danger"/&#62;
+</pre>
+<h2>Properties</h2>
+<table class="table">
+    <tr>
+        <td>url</td>
+        <td>URI</td>
+    </tr>
+    <tr>
+        <td>label</td>
+        <td>Any text</td>
+    </tr>
+    <tr>
+        <td>type</td>
+        <td>Link, Button</td>
+    </tr>
+    <tr>
+        <td>button-style</td>
+        <td>Primary, Secondary, Success, Info, Warning, Danger, Dark, Light</td>
+    </tr>
+</table>
