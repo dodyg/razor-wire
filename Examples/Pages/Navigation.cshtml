@@ -1,5 +1,12 @@
 ﻿@page
 @model Examples.Pages.NavigationModel
 @{
+    var navigations = new List<Navigation>()
+    {
+        new Navigation("Home", "/"),
+        new Navigation("Settings", ("Change Password", "/password"), ("Notifications", "/notification"))
+        new Navigation("Logout", "/logout")
+    };
 }
 
+<navigation navigations="navigations"></navigation>
